@@ -12,10 +12,11 @@
     "revision": "cm-12.1"
  },
  {
-    "remote": "github",
-    "repository": "CyanogenMod/android_kernel_samsung_jf",
-    "target_path": "kernel/samsung/jf",
-    "revision": "cm-12.1"
+    
+   "remote": "github",
+   "repository": "Radium-Devices/Radium_jflte",
+   "target_path": "kernel/samsung/jf",
+   "revision": "5.1"
  },
  {
     "remote": "github",
