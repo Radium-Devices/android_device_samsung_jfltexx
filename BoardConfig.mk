@@ -28,10 +28,7 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 
 KERNEL_TOOLCHAIN := /home/tjstevemx/radium/prebuilts/gcc/linux-x86/arm/arm-eabi-6.0/bin
 
-# Optimizations
-BOARD_GLOBAL_CFLAGS := -mvectorize-with-neon-quad
-BOARD_GLOBAL_CPPFLAGS := -mvectorize-with-neon-quad
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jflte
-ROM_OPTIS := true
+
