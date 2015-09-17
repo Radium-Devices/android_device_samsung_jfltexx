@@ -26,7 +26,7 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
-KERNEL_TOOLCHAIN := /home/tjstevemx/radium/prebuilts/gcc/linux-x86/arm/arm-eabi-6.0/bin
+KBUILD_BUILD_USER := TJSteveMX
 
 
 # Assert
